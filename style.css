@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  padding: 5em 15% 5em 15%;
+  background-image: linear-gradient(hsl(217, 61%, 90%),hsl(0, 0%, 93%));
+}
+
+.extension_bar{
+  background-color: hsl(200, 60%, 99%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.moon{
+  background-color: hsl(0, 0%, 78%);
+  padding: 0.5em;
+  border-radius: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+.moon:hover{
+  background-color: hsl(217, 61%, 90%);
+}
+
+.extension{
+  width: 140px;
+}
+
+.extension_list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.extension_list h2{
+  color: hsl(227, 75%, 14%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.btn button{
+  margin-left: 1em;
+  padding: 0.5em 0.7em 0.5em 0.7em;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  background-color: rgba(255, 253, 253, 0.966);
+  cursor: pointer;
+}
+
+.btn button:hover{
+background-color: hsl(3, 86%, 64%);
+}
+
+.btn button:focus{
+  background-color: hsl(3, 77%, 44%);
+  color: white;
+}
+
+.extensions_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.boxes{
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cont{
+  display: flex;
+  gap: 1em;
+  margin: 0.5em;
+}
+
+.image img{
+  width: 40px;
+}
+
+.content h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+  margin-bottom: 0.4em;
+  color: hsl(227, 75%, 14%);
+}
+
+.content p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.rmb_btn{
+  display: flex;
+  margin: 0.5em;
+}
+
+.rmb_btn button{
+  padding: 0.3em 0.7em 0.3em 0.7em;
+  border-radius: 20px;
+  color: hsl(227, 75%, 14%);
+  font-weight: 500;
+  border: 1px solid hsl(0, 0%, 78%);
+  outline: none;
+  cursor: pointer;
+  margin-top: 3em;
+}
+
+.rmb_btn button:hover{
+  background-color: hsl(227, 75%, 14%);
+  border: none;
+  color: white;
+}
+
+.box8 .rmb_btn, .box9 .rmb_btn{
+  margin-top: 1.5em;
+}
